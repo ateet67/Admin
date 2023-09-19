@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { EventService } from '../../core/services/event.service';
 import { LAYOUT_MODE, LAYOUT_WIDTH, TOPBAR, SIDEBAR_SIZE, SIDEBAR_COLOR, LAYOUT_POSITION, LAYOUT_DIRECTION } from '../layouts.model';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-rightsidebar',
@@ -21,7 +22,7 @@ export class RightsidebarComponent implements OnInit {
   topbar: string | undefined;
   sidebarcolor: string | undefined;
   sidebarsize: string | undefined;
-  direction: string = 'rtl'
+  direction: string = LAYOUT_DIRECTION
 
   constructor(private eventService: EventService) { }
 
@@ -32,7 +33,7 @@ export class RightsidebarComponent implements OnInit {
     this.sidebarcolor = SIDEBAR_COLOR;
     this.sidebarsize = SIDEBAR_SIZE;
     this.position = LAYOUT_POSITION;
-    this.direction = LAYOUT_DIRECTION;
+    this.direction = localStorage.getItem(environment.directionKey) ?? LAYOUT_DIRECTION;
 
     /**
      * horizontal-vertical layput set
@@ -66,7 +67,8 @@ export class RightsidebarComponent implements OnInit {
   }
 
   changeDirection(mode: string) {
-    this.direction = mode
+    this.direction = mode;
+    localStorage.setItem(environment.directionKey, this.direction)
     document.documentElement.setAttribute("dir", mode);
   }
 

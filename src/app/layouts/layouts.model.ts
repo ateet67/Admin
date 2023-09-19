@@ -14,4 +14,4 @@ export const SIDEBAR_SIZE = 'default';
 
 export const SIDEBAR_COLOR = 'light';
 
-export const LAYOUT_DIRECTION = 'rtl';
+export const LAYOUT_DIRECTION = 'ltr';
