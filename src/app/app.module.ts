@@ -20,7 +20,6 @@ import { JwtInterceptor } from './core/helpers/jwt.interceptor';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 
 export function createTranslateLoader(http: HttpClient): any {
-  
   return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
 }
 
