@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { AnalyticsComponent } from './analytics/analytics.component';
 import { ChatComponent } from './chat/chat.component';
 // import { FileManagerComponent } from './file-manager/file-manager.component';
 import { GalleryComponent } from './gallery/gallery.component';
@@ -12,10 +11,6 @@ const routes: Routes = [
   {
     path: '',
     component: DashboardComponent
-  },
-  {
-    path: 'analytics',
-    component: AnalyticsComponent
   },
   // {
   //   path: 'calendar',

@@ -16,7 +16,6 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SharedModule } from '../shared/shared.module';
 import { WidgetModule } from '../shared/widget/widget.module';
-import { AnalyticsComponent } from './analytics/analytics.component';
 import { ChatComponent } from './chat/chat.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ExtraspagesModule } from './extraspages/extraspages.module';
@@ -30,7 +29,6 @@ import { LookupModule } from './lookup/lookup.module';
 @NgModule({
   declarations: [
     DashboardComponent,
-    AnalyticsComponent,
     ChatComponent,
     GalleryComponent,
     WidgetsComponent,
