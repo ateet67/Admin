@@ -114,6 +114,20 @@
                             onchange="document.body.setAttribute('data-sidebar', 'brand')">
                         <label class="form-check-label" for="sidebar-color-brand">Brand</label>
                     </div>
+
+
+                    <h6 class="mt-4 mb-3 sidebar-setting">Direction</h6>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="layout-direction" id="layout-direction"
+                            value="dark" [checked]="direction === 'ltr'" (change)="changeDirection('ltr')">
+                        <label class="form-check-label" for="layout-direction-ltr">LTR</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="layout-direction" id="layout-direction"
+                            value="light" [checked]="direction === 'rtl'" (change)="changeDirection('rtl')">
+                        <label class="form-check-label" for="layout-direction-ltr">RTL</label>
+                    </div>
                 </div>
             </div>
         </div>

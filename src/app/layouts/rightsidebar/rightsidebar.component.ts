@@ -21,7 +21,7 @@ export class RightsidebarComponent implements OnInit {
   topbar: string | undefined;
   sidebarcolor: string | undefined;
   sidebarsize: string | undefined;
-  direction: string = 'ltr';
+  direction: string = 'rtl'
 
   constructor(private eventService: EventService) { }
 
@@ -37,16 +37,17 @@ export class RightsidebarComponent implements OnInit {
     /**
      * horizontal-vertical layput set
      */
-     this.layout = document.body.getAttribute('data-layout');
-     const vertical = document.getElementById('is-layout');
-     if (vertical != null) {
-       vertical.setAttribute('checked', 'true');
-     }
-     if (this.layout == 'horizontal') {
-       vertical?.removeAttribute('checked');
-     }
+    this.layout = document.body.getAttribute('data-layout');
+    const vertical = document.getElementById('is-layout');
+    if (vertical != null) {
+      vertical.setAttribute('checked', 'true');
+    }
+    if (this.layout == 'horizontal') {
+      vertical?.removeAttribute('checked');
+    }
+    this.changeDirection(this.direction)
   }
-  
+
 
   /**
    * Hide the sidebar
@@ -65,6 +66,7 @@ export class RightsidebarComponent implements OnInit {
   }
 
   changeDirection(mode: string) {
+    this.direction = mode
     document.documentElement.setAttribute("dir", mode);
   }
 
