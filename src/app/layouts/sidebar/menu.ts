@@ -49,93 +49,93 @@ export const MENU: MenuItem[] = [
     //     icon: 'trello',
     //     link: '/kanban-board'
     // },
-    {
-        id: 7,
-        label: 'MENUITEMS.FILEMANAGER.TEXT',
-        icon: 'folder',
-        link: '/file-manager'
-    },
-    {
-        id: 8,
-        label: 'MENUITEMS.EMAIL.TEXT',
-        icon: 'mail',
-        subItems: [
-            {
-                id: 9,
-                label: 'MENUITEMS.EMAIL.LIST.INBOX',
-                link: '/email/inbox',
-                parentId: 8
-            },
-            {
-                id: 10,
-                label: 'MENUITEMS.EMAIL.LIST.READEMAIL',
-                link: '/email/read/1',
-                parentId: 8
-            }
-        ]
-    },
-    {
-        id: 11,
-        label: 'MENUITEMS.CONTACTS.TEXT',
-        icon: 'book',
-        subItems: [
-            {
-                id: 12,
-                label: 'MENUITEMS.CONTACTS.LIST.USERGRID',
-                link: '/contacts/grid',
-                parentId: 11
-            },
-            {
-                id: 13,
-                label: 'MENUITEMS.CONTACTS.LIST.USERLIST',
-                link: '/contacts/list',
-                parentId: 11
-            },
-            {
-                id: 14,
-                label: 'MENUITEMS.CONTACTS.LIST.SETTINGS',
-                link: '/contacts/settings',
-                parentId: 11
-            }
-        ]
-    },
-    {
-        id: 15,
-        label: 'MENUITEMS.GALLERY.TEXT',
-        icon: 'image',
-        link: '/gallery'
-    },
-    {
-        id: 16,
-        label: 'MENUITEMS.PROJECTS.TEXT',
-        icon: 'briefcase',
-        subItems: [
-            {
-                id: 17,
-                label: 'MENUITEMS.PROJECTS.LIST.PROJECTSGRID',
-                link: '/projects/project-grid',
-                parentId: 16
-            },
-            {
-                id: 18,
-                label: 'MENUITEMS.PROJECTS.LIST.PROJECTSLIST',
-                link: '/projects/project-list',
-                parentId: 16
-            },
-            {
-                id: 19,
-                label: 'MENUITEMS.PROJECTS.LIST.PROJECTSOVERVIEW',
-                link: '/projects/project-overview',
-                parentId: 16
-            },
-            {
-                id: 20,
-                label: 'MENUITEMS.PROJECTS.LIST.CREATENEW',
-                link: '/projects/project-create',
-                parentId: 16
-            }
-        ]
-    },
+    // {
+    //     id: 7,
+    //     label: 'MENUITEMS.FILEMANAGER.TEXT',
+    //     icon: 'folder',
+    //     link: '/file-manager'
+    // },
+    // {
+    //     id: 8,
+    //     label: 'MENUITEMS.EMAIL.TEXT',
+    //     icon: 'mail',
+    //     subItems: [
+    //         {
+    //             id: 9,
+    //             label: 'MENUITEMS.EMAIL.LIST.INBOX',
+    //             link: '/email/inbox',
+    //             parentId: 8
+    //         },
+    //         {
+    //             id: 10,
+    //             label: 'MENUITEMS.EMAIL.LIST.READEMAIL',
+    //             link: '/email/read/1',
+    //             parentId: 8
+    //         }
+    //     ]
+    // },
+    // {
+    //     id: 11,
+    //     label: 'MENUITEMS.CONTACTS.TEXT',
+    //     icon: 'book',
+    //     subItems: [
+    //         {
+    //             id: 12,
+    //             label: 'MENUITEMS.CONTACTS.LIST.USERGRID',
+    //             link: '/contacts/grid',
+    //             parentId: 11
+    //         },
+    //         {
+    //             id: 13,
+    //             label: 'MENUITEMS.CONTACTS.LIST.USERLIST',
+    //             link: '/contacts/list',
+    //             parentId: 11
+    //         },
+    //         {
+    //             id: 14,
+    //             label: 'MENUITEMS.CONTACTS.LIST.SETTINGS',
+    //             link: '/contacts/settings',
+    //             parentId: 11
+    //         }
+    //     ]
+    // },
+    // {
+    //     id: 15,
+    //     label: 'MENUITEMS.GALLERY.TEXT',
+    //     icon: 'image',
+    //     link: '/gallery'
+    // },
+    // {
+    //     id: 16,
+    //     label: 'MENUITEMS.PROJECTS.TEXT',
+    //     icon: 'briefcase',
+    //     subItems: [
+    //         {
+    //             id: 17,
+    //             label: 'MENUITEMS.PROJECTS.LIST.PROJECTSGRID',
+    //             link: '/projects/project-grid',
+    //             parentId: 16
+    //         },
+    //         {
+    //             id: 18,
+    //             label: 'MENUITEMS.PROJECTS.LIST.PROJECTSLIST',
+    //             link: '/projects/project-list',
+    //             parentId: 16
+    //         },
+    //         {
+    //             id: 19,
+    //             label: 'MENUITEMS.PROJECTS.LIST.PROJECTSOVERVIEW',
+    //             link: '/projects/project-overview',
+    //             parentId: 16
+    //         },
+    //         {
+    //             id: 20,
+    //             label: 'MENUITEMS.PROJECTS.LIST.CREATENEW',
+    //             link: '/projects/project-create',
+    //             parentId: 16
+    //         }
+    //     ]
+    // },
     {
         id: 21,
         label: 'MENUITEMS.PAGES.TEXT',
@@ -382,25 +382,25 @@ export const MENU: MenuItem[] = [
             }
         ]
     },
-    {
-        id: 59,
-        label: 'MENUITEMS.PRICING.TEXT',
-        icon: 'tag',
-        subItems: [
-            {
-                id: 60,
-                label: 'MENUITEMS.PRICING.LIST.BASIC',
-                link: '/pricing/basic',
-                parentId: 59
-            },
-            {
-                id: 61,
-                label: 'MENUITEMS.PRICING.LIST.TABLE',
-                link: '/pricing/table',
-                parentId: 59
-            },
-        ]
-    },
+    // {
+    //     id: 59,
+    //     label: 'MENUITEMS.PRICING.TEXT',
+    //     icon: 'tag',
+    //     subItems: [
+    //         {
+    //             id: 60,
+    //             label: 'MENUITEMS.PRICING.LIST.BASIC',
+    //             link: '/pricing/basic',
+    //             parentId: 59
+    //         },
+    //         {
+    //             id: 61,
+    //             label: 'MENUITEMS.PRICING.LIST.TABLE',
+    //             link: '/pricing/table',
+    //             parentId: 59
+    //         },
+    //     ]
+    // },
     {
         id: 62,
         label: 'MENUITEMS.INVOICES.TEXT',
@@ -420,31 +420,31 @@ export const MENU: MenuItem[] = [
             },
         ]
     },
-    {
-        id: 65,
-        label: 'MENUITEMS.TIMELINE.TEXT',
-        icon: 'award',
-        subItems: [
-            {
-                id: 63,
-                label: 'MENUITEMS.TIMELINE.LIST.CENTERVIEW',
-                link: '/timeline/center',
-                parentId: 62
-            },
-            {
-                id: 64,
-                label: 'MENUITEMS.TIMELINE.LIST.LEFTVIEW',
-                link: '/timeline/left',
-                parentId: 62
-            },
-            {
-                id: 64,
-                label: 'MENUITEMS.TIMELINE.LIST.HORIZONTALVIEW',
-                link: '/timeline/horizontal',
-                parentId: 62
-            },
-        ]
-    },
+    // {
+    //     id: 65,
+    //     label: 'MENUITEMS.TIMELINE.TEXT',
+    //     icon: 'award',
+    //     subItems: [
+    //         {
+    //             id: 63,
+    //             label: 'MENUITEMS.TIMELINE.LIST.CENTERVIEW',
+    //             link: '/timeline/center',
+    //             parentId: 62
+    //         },
+    //         {
+    //             id: 64,
+    //             label: 'MENUITEMS.TIMELINE.LIST.LEFTVIEW',
+    //             link: '/timeline/left',
+    //             parentId: 62
+    //         },
+    //         {
+    //             id: 64,
+    //             label: 'MENUITEMS.TIMELINE.LIST.HORIZONTALVIEW',
+    //             link: '/timeline/horizontal',
+    //             parentId: 62
+    //         },
+    //     ]
+    // },
     {
         id: 65,
         label: 'MENUITEMS.COMPONENTS.TEXT',
@@ -547,49 +547,49 @@ export const MENU: MenuItem[] = [
             }
         ]
     },
-    {
-        id: 80,
-        label: 'MENUITEMS.EXTENDED.TEXT',
-        icon: 'cpu',
-        subItems: [
-            {
-                id: 81,
-                label: 'MENUITEMS.EXTENDED.LIST.LIGHTBOX',
-                link: '/extended/lightbox',
-                parentId: 80
-            },
-            {
-                id: 82,
-                label: 'MENUITEMS.EXTENDED.LIST.RANGESLIDER',
-                link: '/extended/rangeslider',
-                parentId: 80
-            },
-            {
-                id: 83,
-                label: 'MENUITEMS.EXTENDED.LIST.SWEETALERT',
-                link: '/extended/sweet-alert',
-                parentId: 80
-            },
-            {
-                id: 84,
-                label: 'MENUITEMS.EXTENDED.LIST.RATING',
-                link: '/extended/rating',
-                parentId: 80
-            },
-            {
-                id: 85,
-                label: 'MENUITEMS.EXTENDED.LIST.NOTIFICATION',
-                link: '/extended/notification',
-                parentId: 80
-            },
-            {
-                id: 86,
-                label: 'MENUITEMS.EXTENDED.LIST.SWIPERSLIDER',
-                link: '/extended/swiper-slider',
-                parentId: 80
-            }
-        ]
-    },
+    // {
+    //     id: 80,
+    //     label: 'MENUITEMS.EXTENDED.TEXT',
+    //     icon: 'cpu',
+    //     subItems: [
+    //         {
+    //             id: 81,
+    //             label: 'MENUITEMS.EXTENDED.LIST.LIGHTBOX',
+    //             link: '/extended/lightbox',
+    //             parentId: 80
+    //         },
+    //         {
+    //             id: 82,
+    //             label: 'MENUITEMS.EXTENDED.LIST.RANGESLIDER',
+    //             link: '/extended/rangeslider',
+    //             parentId: 80
+    //         },
+    //         {
+    //             id: 83,
+    //             label: 'MENUITEMS.EXTENDED.LIST.SWEETALERT',
+    //             link: '/extended/sweet-alert',
+    //             parentId: 80
+    //         },
+    //         {
+    //             id: 84,
+    //             label: 'MENUITEMS.EXTENDED.LIST.RATING',
+    //             link: '/extended/rating',
+    //             parentId: 80
+    //         },
+    //         {
+    //             id: 85,
+    //             label: 'MENUITEMS.EXTENDED.LIST.NOTIFICATION',
+    //             link: '/extended/notification',
+    //             parentId: 80
+    //         },
+    //         {
+    //             id: 86,
+    //             label: 'MENUITEMS.EXTENDED.LIST.SWIPERSLIDER',
+    //             link: '/extended/swiper-slider',
+    //             parentId: 80
+    //         }
+    //     ]
+    // },
     {
         id: 87,
         label: 'MENUITEMS.WIDGETS.TEXT',
@@ -664,165 +664,165 @@ export const MENU: MenuItem[] = [
             }
         ]
     },
-    {
-        id: 98,
-        icon: 'bar-chart-2',
-        label: 'MENUITEMS.APEXCHARTS.TEXT',
-        subItems: [
-            {
-                id: 99,
-                label: 'MENUITEMS.APEXCHARTS.LIST.LINE',
-                link: '/charts/line',
-                parentId: 98
-            },
-            {
-                id: 100,
-                label: 'MENUITEMS.APEXCHARTS.LIST.AREA',
-                link: '/charts/area',
-                parentId: 98
-            },
-            {
-                id: 101,
-                label: 'MENUITEMS.APEXCHARTS.LIST.COLUMN',
-                link: '/charts/column',
-                parentId: 98
-            },
-            {
-                id: 102,
-                label: 'MENUITEMS.APEXCHARTS.LIST.BAR',
-                link: '/charts/bar',
-                parentId: 98
-            },
-            {
-                id: 103,
-                label: 'MENUITEMS.APEXCHARTS.LIST.MIXED',
-                link: '/charts/mixed',
-                parentId: 98
-            },
-            {
-                id: 104,
-                label: 'MENUITEMS.APEXCHARTS.LIST.TIMELINE',
-                link: '/charts/timeline',
-                parentId: 98
-            },
-            {
-                id: 105,
-                label: 'MENUITEMS.APEXCHARTS.LIST.CANDLESTICK',
-                link: '/charts/candlestick',
-                parentId: 98
-            },
-            {
-                id: 106,
-                label: 'MENUITEMS.APEXCHARTS.LIST.BOXPLOT',
-                link: '/charts/boxplot',
-                parentId: 98
-            },
-            {
-                id: 107,
-                label: 'MENUITEMS.APEXCHARTS.LIST.BUBBLE',
-                link: '/charts/bubble',
-                parentId: 98
-            },
-            {
-                id: 108,
-                label: 'MENUITEMS.APEXCHARTS.LIST.SCATTER',
-                link: '/charts/scatter',
-                parentId: 98
-            },
-            {
-                id: 109,
-                label: 'MENUITEMS.APEXCHARTS.LIST.HEATMAP',
-                link: '/charts/heatmap',
-                parentId: 98
-            },
-            {
-                id: 110,
-                label: 'MENUITEMS.APEXCHARTS.LIST.TREEMAP',
-                link: '/charts/treemap',
-                parentId: 98
-            },
-            {
-                id: 111,
-                label: 'MENUITEMS.APEXCHARTS.LIST.PIE',
-                link: '/charts/pie',
-                parentId: 98
-            },
-            {
-                id: 112,
-                label: 'MENUITEMS.APEXCHARTS.LIST.RADIALBAR',
-                link: '/charts/radialbar',
-                parentId: 98
-            },
-            {
-                id: 113,
-                label: 'MENUITEMS.APEXCHARTS.LIST.RADAR',
-                link: '/charts/radar',
-                parentId: 98
-            },
-            {
-                id: 114,
-                label: 'MENUITEMS.APEXCHARTS.LIST.POLARAREA',
-                link: '/charts/polararea',
-                parentId: 98
-            }
-        ]
-    },
-    {
-        id: 115,
-        label: 'MENUITEMS.ICONS.TEXT',
-        icon: 'archive',
-        subItems: [
-            {
-                id: 116,
-                label: 'MENUITEMS.ICONS.LIST.UNICONS',
-                link: '/icons/unicons',
-                parentId: 115
-            },
-            {
-                id: 117,
-                label: 'MENUITEMS.ICONS.LIST.FEATHERICONS',
-                link: '/icons/feather-icon',
-                parentId: 115
-            },
-            {
-                id: 118,
-                label: 'MENUITEMS.ICONS.LIST.BOXICONS',
-                link: '/icons/boxicons',
-                parentId: 115
-            },
-            {
-                id: 119,
-                label: 'MENUITEMS.ICONS.LIST.MATERIALDESIGN',
-                link: '/icons/materialdesign',
-                parentId: 115
-            },
-            {
-                id: 120,
-                label: 'MENUITEMS.ICONS.LIST.FONTAWESOME',
-                link: '/icons/font-awesome',
-                parentId: 115
-            },
-        ]
-    },
-    {
-        id: 121,
-        label: 'MENUITEMS.MAPS.TEXT',
-        icon: 'map-pin',
-        subItems: [
-            {
-                id: 122,
-                label: 'MENUITEMS.MAPS.LIST.GOOGLEMAP',
-                link: '/maps/google',
-                parentId: 121
-            },
-            {
-                id: 123,
-                label: 'MENUITEMS.MAPS.LIST.LEAFLET',
-                link: '/maps/leaflet',
-                parentId: 121
-            }
-        ]
-    },
+    // {
+    //     id: 98,
+    //     icon: 'bar-chart-2',
+    //     label: 'MENUITEMS.APEXCHARTS.TEXT',
+    //     subItems: [
+    //         {
+    //             id: 99,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.LINE',
+    //             link: '/charts/line',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 100,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.AREA',
+    //             link: '/charts/area',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 101,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.COLUMN',
+    //             link: '/charts/column',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 102,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.BAR',
+    //             link: '/charts/bar',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 103,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.MIXED',
+    //             link: '/charts/mixed',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 104,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.TIMELINE',
+    //             link: '/charts/timeline',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 105,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.CANDLESTICK',
+    //             link: '/charts/candlestick',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 106,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.BOXPLOT',
+    //             link: '/charts/boxplot',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 107,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.BUBBLE',
+    //             link: '/charts/bubble',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 108,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.SCATTER',
+    //             link: '/charts/scatter',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 109,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.HEATMAP',
+    //             link: '/charts/heatmap',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 110,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.TREEMAP',
+    //             link: '/charts/treemap',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 111,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.PIE',
+    //             link: '/charts/pie',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 112,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.RADIALBAR',
+    //             link: '/charts/radialbar',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 113,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.RADAR',
+    //             link: '/charts/radar',
+    //             parentId: 98
+    //         },
+    //         {
+    //             id: 114,
+    //             label: 'MENUITEMS.APEXCHARTS.LIST.POLARAREA',
+    //             link: '/charts/polararea',
+    //             parentId: 98
+    //         }
+    //     ]
+    // },
+    // {
+    //     id: 115,
+    //     label: 'MENUITEMS.ICONS.TEXT',
+    //     icon: 'archive',
+    //     subItems: [
+    //         {
+    //             id: 116,
+    //             label: 'MENUITEMS.ICONS.LIST.UNICONS',
+    //             link: '/icons/unicons',
+    //             parentId: 115
+    //         },
+    //         {
+    //             id: 117,
+    //             label: 'MENUITEMS.ICONS.LIST.FEATHERICONS',
+    //             link: '/icons/feather-icon',
+    //             parentId: 115
+    //         },
+    //         {
+    //             id: 118,
+    //             label: 'MENUITEMS.ICONS.LIST.BOXICONS',
+    //             link: '/icons/boxicons',
+    //             parentId: 115
+    //         },
+    //         {
+    //             id: 119,
+    //             label: 'MENUITEMS.ICONS.LIST.MATERIALDESIGN',
+    //             link: '/icons/materialdesign',
+    //             parentId: 115
+    //         },
+    //         {
+    //             id: 120,
+    //             label: 'MENUITEMS.ICONS.LIST.FONTAWESOME',
+    //             link: '/icons/font-awesome',
+    //             parentId: 115
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 121,
+    //     label: 'MENUITEMS.MAPS.TEXT',
+    //     icon: 'map-pin',
+    //     subItems: [
+    //         {
+    //             id: 122,
+    //             label: 'MENUITEMS.MAPS.LIST.GOOGLEMAP',
+    //             link: '/maps/google',
+    //             parentId: 121
+    //         },
+    //         {
+    //             id: 123,
+    //             label: 'MENUITEMS.MAPS.LIST.LEAFLET',
+    //             link: '/maps/leaflet',
+    //             parentId: 121
+    //         }
+    //     ]
+    // },
     {
         id: 124,
         label: 'MENUITEMS.MULTILEVEL.TEXT',

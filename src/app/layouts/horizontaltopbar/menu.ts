@@ -115,42 +115,42 @@ export const MENU: MenuItem[] = [
                 link: '/ui/utilities',
                 parentId: 4
             },
-            {
-                id: 20,
-                label: 'MENUITEMS.EXTENDED.LIST.LIGHTBOX',
-                link: '/extended/lightbox',
-                parentId: 4
-            },
-            {
-                id: 21,
-                label: 'MENUITEMS.EXTENDED.LIST.RANGESLIDER',
-                link: '/extended/rangeslider',
-                parentId: 80
-            },
-            {
-                id: 22,
-                label: 'MENUITEMS.EXTENDED.LIST.SWEETALERT',
-                link: '/extended/sweet-alert',
-                parentId: 4
-            },
-            {
-                id: 23,
-                label: 'MENUITEMS.EXTENDED.LIST.RATING',
-                link: '/extended/rating',
-                parentId: 4
-            },
-            {
-                id: 24,
-                label: 'MENUITEMS.EXTENDED.LIST.NOTIFICATION',
-                link: '/extended/notification',
-                parentId: 4
-            },
-            {
-                id: 25,
-                label: 'MENUITEMS.EXTENDED.LIST.SWIPERSLIDER',
-                link: '/extended/swiper-slider',
-                parentId: 4
-            }
+            // {
+            //     id: 20,
+            //     label: 'MENUITEMS.EXTENDED.LIST.LIGHTBOX',
+            //     link: '/extended/lightbox',
+            //     parentId: 4
+            // },
+            // {
+            //     id: 21,
+            //     label: 'MENUITEMS.EXTENDED.LIST.RANGESLIDER',
+            //     link: '/extended/rangeslider',
+            //     parentId: 80
+            // },
+            // {
+            //     id: 22,
+            //     label: 'MENUITEMS.EXTENDED.LIST.SWEETALERT',
+            //     link: '/extended/sweet-alert',
+            //     parentId: 4
+            // },
+            // {
+            //     id: 23,
+            //     label: 'MENUITEMS.EXTENDED.LIST.RATING',
+            //     link: '/extended/rating',
+            //     parentId: 4
+            // },
+            // {
+            //     id: 24,
+            //     label: 'MENUITEMS.EXTENDED.LIST.NOTIFICATION',
+            //     link: '/extended/notification',
+            //     parentId: 4
+            // },
+            // {
+            //     id: 25,
+            //     label: 'MENUITEMS.EXTENDED.LIST.SWIPERSLIDER',
+            //     link: '/extended/swiper-slider',
+            //     parentId: 4
+            // }
         ]
     },
     {
@@ -182,86 +182,86 @@ export const MENU: MenuItem[] = [
             //     link: '/file-manager',
             //     parentId: 26
             // },
-            {
-                id: 31,
-                label: 'MENUITEMS.EMAIL.TEXT',
-                subItems: [
-                    {
-                        id: 32,
-                        label: 'MENUITEMS.EMAIL.LIST.INBOX',
-                        link: '/email/inbox',
-                        parentId: 31
-                    },
-                    {
-                        id: 33,
-                        label: 'MENUITEMS.EMAIL.LIST.READEMAIL',
-                        link: '/email/read/1',
-                        parentId: 31
-                    }
-                ]
-            },
-            {
-                id: 34,
-                label: 'MENUITEMS.CONTACTS.TEXT',
-                icon: 'book',
-                subItems: [
-                    {
-                        id: 35,
-                        label: 'MENUITEMS.CONTACTS.LIST.USERGRID',
-                        link: '/contacts/grid',
-                        parentId: 34
-                    },
-                    {
-                        id: 36,
-                        label: 'MENUITEMS.CONTACTS.LIST.USERLIST',
-                        link: '/contacts/list',
-                        parentId: 34
-                    },
-                    {
-                        id: 37,
-                        label: 'MENUITEMS.CONTACTS.LIST.SETTINGS',
-                        link: '/contacts/settings',
-                        parentId: 34
-                    }
-                ]
-            },
-            {
-                id: 38,
-                label: 'MENUITEMS.GALLERY.TEXT',
-                link: '/gallery',
-                parentId: 26
-            },
-            {
-                id: 39,
-                label: 'MENUITEMS.PROJECTS.TEXT',
-                icon: 'briefcase',
-                subItems: [
-                    {
-                        id: 40,
-                        label: 'MENUITEMS.PROJECTS.LIST.PROJECTSGRID',
-                        link: '/projects/project-grid',
-                        parentId: 39
-                    },
-                    {
-                        id: 41,
-                        label: 'MENUITEMS.PROJECTS.LIST.PROJECTSLIST',
-                        link: '/projects/project-list',
-                        parentId: 39
-                    },
-                    {
-                        id: 42,
-                        label: 'MENUITEMS.PROJECTS.LIST.PROJECTSOVERVIEW',
-                        link: '/projects/project-overview',
-                        parentId: 39
-                    },
-                    {
-                        id: 43,
-                        label: 'MENUITEMS.PROJECTS.LIST.CREATENEW',
-                        link: '/projects/project-create',
-                        parentId: 39
-                    }
-                ]
-            },
+            // {
+            //     id: 31,
+            //     label: 'MENUITEMS.EMAIL.TEXT',
+            //     subItems: [
+            //         {
+            //             id: 32,
+            //             label: 'MENUITEMS.EMAIL.LIST.INBOX',
+            //             link: '/email/inbox',
+            //             parentId: 31
+            //         },
+            //         {
+            //             id: 33,
+            //             label: 'MENUITEMS.EMAIL.LIST.READEMAIL',
+            //             link: '/email/read/1',
+            //             parentId: 31
+            //         }
+            //     ]
+            // },
+            // {
+            //     id: 34,
+            //     label: 'MENUITEMS.CONTACTS.TEXT',
+            //     icon: 'book',
+            //     subItems: [
+            //         {
+            //             id: 35,
+            //             label: 'MENUITEMS.CONTACTS.LIST.USERGRID',
+            //             link: '/contacts/grid',
+            //             parentId: 34
+            //         },
+            //         {
+            //             id: 36,
+            //             label: 'MENUITEMS.CONTACTS.LIST.USERLIST',
+            //             link: '/contacts/list',
+            //             parentId: 34
+            //         },
+            //         {
+            //             id: 37,
+            //             label: 'MENUITEMS.CONTACTS.LIST.SETTINGS',
+            //             link: '/contacts/settings',
+            //             parentId: 34
+            //         }
+            //     ]
+            // },
+            // {
+            //     id: 38,
+            //     label: 'MENUITEMS.GALLERY.TEXT',
+            //     link: '/gallery',
+            //     parentId: 26
+            // },
+            // {
+            //     id: 39,
+            //     label: 'MENUITEMS.PROJECTS.TEXT',
+            //     icon: 'briefcase',
+            //     subItems: [
+            //         {
+            //             id: 40,
+            //             label: 'MENUITEMS.PROJECTS.LIST.PROJECTSGRID',
+            //             link: '/projects/project-grid',
+            //             parentId: 39
+            //         },
+            //         {
+            //             id: 41,
+            //             label: 'MENUITEMS.PROJECTS.LIST.PROJECTSLIST',
+            //             link: '/projects/project-list',
+            //             parentId: 39
+            //         },
+            //         {
+            //             id: 42,
+            //             label: 'MENUITEMS.PROJECTS.LIST.PROJECTSOVERVIEW',
+            //             link: '/projects/project-overview',
+            //             parentId: 39
+            //         },
+            //         {
+            //             id: 43,
+            //             label: 'MENUITEMS.PROJECTS.LIST.CREATENEW',
+            //             link: '/projects/project-create',
+            //             parentId: 39
+            //         }
+            //     ]
+            // },
         ]
     },
     {
@@ -546,31 +546,31 @@ export const MENU: MenuItem[] = [
                     },
                 ]
             },
-            {
-                id: 90,
-                label: 'MENUITEMS.TIMELINE.TEXT',
-                icon: 'award',
-                subItems: [
-                    {
-                        id: 91,
-                        label: 'MENUITEMS.TIMELINE.LIST.CENTERVIEW',
-                        link: '/timeline/center',
-                        parentId: 90
-                    },
-                    {
-                        id: 92,
-                        label: 'MENUITEMS.TIMELINE.LIST.LEFTVIEW',
-                        link: '/timeline/left',
-                        parentId: 90
-                    },
-                    {
-                        id: 93,
-                        label: 'MENUITEMS.TIMELINE.LIST.HORIZONTALVIEW',
-                        link: '/timeline/horizontal',
-                        parentId: 90
-                    },
-                ]
-            },
+            // {
+            //     id: 90,
+            //     label: 'MENUITEMS.TIMELINE.TEXT',
+            //     icon: 'award',
+            //     subItems: [
+            //         {
+            //             id: 91,
+            //             label: 'MENUITEMS.TIMELINE.LIST.CENTERVIEW',
+            //             link: '/timeline/center',
+            //             parentId: 90
+            //         },
+            //         {
+            //             id: 92,
+            //             label: 'MENUITEMS.TIMELINE.LIST.LEFTVIEW',
+            //             link: '/timeline/left',
+            //             parentId: 90
+            //         },
+            //         {
+            //             id: 93,
+            //             label: 'MENUITEMS.TIMELINE.LIST.HORIZONTALVIEW',
+            //             link: '/timeline/horizontal',
+            //             parentId: 90
+            //         },
+            //     ]
+            // },
             {
                 id: 94,
                 label: 'HEADER.AUTHENTICATION.TEXT',

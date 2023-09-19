@@ -34,15 +34,6 @@ const routes: Routes = [
     // component: FileManagerComponent
   // },
   {
-    path: 'email', loadChildren: () => import('./email/email.module').then(m => m.EmailModule)
-  },
-  {
-    path: 'contacts', loadChildren: () => import('./contacts/contacts.module').then(m => m.ContactsModule)
-  },
-  {
-    path: 'projects', loadChildren: () => import('./projects/projects.module').then(m => m.ProjectsModule)
-  },
-  {
     path: 'gallery',
     component: GalleryComponent
   },
@@ -50,19 +41,10 @@ const routes: Routes = [
     path: 'pages', loadChildren: () => import('./extraspages/extraspages.module').then(m => m.ExtraspagesModule)
   },
   {
-    path: 'pricing', loadChildren: () => import('./pricing/pricing.module').then(m => m.PricingModule)
-  },
-  {
     path: 'invoices', loadChildren: () => import('./invoices/invoices.module').then(m => m.InvoicesModule)
   },
   {
-    path: 'timeline', loadChildren: () => import('./timeline/timeline.module').then(m => m.TimelineModule)
-  },
-  {
     path: 'ui', loadChildren: () => import('./ui-elements/ui-elements.module').then(m => m.UiElementsModule)
-  },
-  {
-    path: 'extended', loadChildren: () => import('./extended-ui/extended-ui.module').then(m => m.ExtendedUiModule)
   },
   {
     path: 'widgets', component: WidgetsComponent
@@ -71,16 +53,7 @@ const routes: Routes = [
     path: 'forms', loadChildren: () => import('./form/form.module').then(m => m.FormModule)
   },
   {
-    path: 'tables', loadChildren: () => import('./tables/tables.module').then(m => m.TablesModule)
-  },
-  {
     path: 'icons', loadChildren: () => import('./icons/icons.module').then(m => m.IconsModule)
-  },
-  {
-    path: 'maps', loadChildren: () => import('./maps/maps.module').then(m => m.MapsModule)
-  },
-  {
-    path: 'charts', loadChildren: () => import('./chart/chart.module').then(m => m.ChartModule)
   },
   {
     path: 'lookup', loadChildren: () => import('./lookup/lookup.module').then(m => m.LookupModule)
