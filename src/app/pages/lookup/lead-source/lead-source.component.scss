@@ -1,0 +1,70 @@
+// @import '~ngx-ui-switch/ui-switch.component.scss';
+
+.center{
+    text-align: center
+}
+
+.width{
+    width:5%;
+}
+
+.marginRight{
+    margin-right:15px;
+}
+.actionWidth{
+    width:5.3%;
+    
+}
+
+.border{
+    border: none;
+    background: none;
+    width: 20px;
+    padding: unset;
+    margin: unset
+}
+
+.color:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+ :host {
+    ::ng-deep .ng2-smart-actions {
+      width: 75px;
+      margin:unset;
+    }
+  }
+
+  :host{
+      ::ng-deep .ng2-smart-title{
+          color: #1e6bb8;
+          
+      }
+  }
+  
+   :host{
+       ::ng-deep .fa fa-plus{
+           border: solid black;
+       }
+   }
+
+
+   :host{
+       ::ng-deep .ng2-smart-title{
+           padding: unset;
+       }
+   }
+
+   :host{
+       ::ng-deep th.ng2-smart-th active{
+        width: 79px;
+        padding: 11px;
+    
+       }
+   }
+  th.ng2-smart-th active{
+      width: 84px;
+  }
